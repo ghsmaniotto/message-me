@@ -8,7 +8,7 @@ RUN bundle install
 COPY . /message-me
 
 # Add a scrit to be executed every time the container starts
-COPY entrypoint.sh /usr/bin
-RUN chmod +x /usr/bin/entrypoint.sh
-ENTRYPOINT ["entrypoint.sh"]
-EXPOSE 3000
+#COPY entrypoint.sh /usr/bin
+#RUN chmod +x /usr/bin/entrypoint.sh
+#ENTRYPOINT ["entrypoint.sh"]
+#EXPOSE 3000
